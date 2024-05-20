@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&family=Sedan+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    background-color: #9197a8;
+}
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url("../pildid/pexels-reneasmussen-1405520.jpg");
+    background-position: bottom;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 5% 100%);
+    background-color: #aab0be79;
+}
+
+.intro-image__text a{
+    background-color: rgba(170, 176, 190, 0.479);
+    border: 2px solid #aab0be;
+    color: #bc9063;
+    display: inline-block;
+    font-size: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    
+
+}
+
+.intro-image__text a:hover {
+    transform:scale(1.05)
+}
+
+.intro-text{
+    background-color: #9197a8;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+.intro-text__textbox h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.text-solid {
+    font-size: 1.5rem;
+}
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../pildid/pexels-thevibrantmachine-3066868.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.packaging-image__text a{
+    color: #bc9063;
+    text-decoration: none;
+    font-size: 5rem;
+    padding: 1rem;
+    background-color: #8fa6db83;
+    border: 2px solid #aab0be;
+    transition: all 0.5s ease-in-out;
+
+}
+.packaging-image__text:hover{
+    transform:scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+.packaging_text__textbox{
+    background-color: #ece6d8;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    
+}
+.packaging_text__textbox h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.packaging_text__textbox p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.footer{
+    height: 250px;
+    background-color: lightslategray;
+    color: #a3916f;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.footer ul li{
+    display: inline-block;
+}
+
+.footer ul li a{
+    color: #a3916f;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.footer ul li:hover{
+    transform: scale(1.1);
+}
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url("../pildid/pexels-fotios-photos-1652109.jpg");
+    background-size:cover ;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tutorials-image__text{
+    color: #bc9063;
+    text-decoration: none;
+    font-size: 5rem;
+    padding: 1rem;
+    background-color: #ff888883;
+    border: 2px solid #aab0be;
+    transition: all 0.5s ease-in-out;
+}
+.tutorials-image__text a{
+    color: #f54141;
+    text-decoration: none;
+    font-size: 5rem;
+    padding: 1rem;
+    
+}
+.tutorials-image__text:hover{
+    transform: scale(1.1);
+}
+.algus-tekst{
+    background-color: #d8deec;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    transition: all 0.5s ease-in-out;
+}
